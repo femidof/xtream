@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We use this for communication</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We use this for communication</string>
 	<key>CFBundleDisplayName</key>
 	<string>Xtream</string>
 	<key>CFBundleExecutable</key>
