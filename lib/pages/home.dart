@@ -5,6 +5,20 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          TextField(),
+          TextField(),
+          TextButton(
+            onPressed: () {},
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
